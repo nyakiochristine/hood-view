@@ -26,8 +26,7 @@ To get the project .......
 
 <https://github.com/nyakiochristine/hoodview.git>
 
-
-##### Navigate into the folder and install requirements  
+### Navigate into the folder and install requirements  
 
  ```bash
  cd hood pip install -r requirements.txt 
