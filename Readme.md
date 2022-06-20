@@ -7,8 +7,6 @@
 This project allows users to post their hood, hospitals and businesses around their neighbourhood
 
 ## Live Link  
-
- Click [View Site](https://hoodart.herokuapp.com/)  to visit the site
   
 ## User Story  
   
