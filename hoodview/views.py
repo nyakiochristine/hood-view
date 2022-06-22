@@ -27,3 +27,22 @@ def signup(request):
     return render(request, 'registration/signup.html', {'form': form})
 
 
+def hoods(request):
+    all_hoods= Neighbourhood.objects.all()
+    return render(request,'all_hood.html')
+
+def create_hood(request):
+    if request.method=="Post"
+    form = NeighbourHoodForm(request.POST, request.FILES)
+        if form.is_valid():
+            hood = form.save(commit=False)
+            hood.admin = request.user.profile
+            hood.save()
+            return redirect('hood')
+    else:
+        form = NeighbourHoodForm()
+    return render(request, 'newhood.html', {'form': form})
+
+
+def profile(request):
+    return render(request, 'profile.html')    
