@@ -30,7 +30,7 @@ To get the project .......
  cd hood pip install -r requirements.txt 
  ```
 
-##### Install and activate Virtual  
+#### Install and activate Virtual  
 
 ```bash
 - python3 -m venv virtual - source virtual/bin/activate
@@ -60,8 +60,6 @@ python manage.py migrate
 
 bash
 python manage.py runserver
-
-```
 
 ##### Testing the application  
 
