@@ -24,9 +24,9 @@
 </head>
 <body>
     <div class="wrapper">
-        {% include 'searchbar.html' %}
-        <div id="content" style="background-image: url({% static 'images/bg.jpg' %}); background-repeat:no-repeat;background-size:cover">
         {% include 'navbar.html' %}
+        <div id="content" style="background-image: url({% static 'images/bg.jpg' %}); background-repeat:no-repeat;background-size:cover">
+        {% include 'searchbar.html' %}
 
         {% block content %}
 
