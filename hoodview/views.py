@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect,get_object_or_404
 from django.http import HttpResponse
 from django.contrib.auth import login, authenticate
-from .forms import BusinessForm,SignupForm
+from .forms import BusinessForm,SignupForm,NeighbourhoodForm
 from .models import Business,Post,Neighbourhood,Profile
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
@@ -25,3 +25,5 @@ def signup(request):
     else:
         form = SignupForm()
     return render(request, 'registration/signup.html', {'form': form})
+
+
