@@ -1,7 +1,7 @@
 import email
 from unicodedata import name
 from django.db import models
-from django.contrib.auth.urls import User
+from django.contrib.auth.models import User
 
 # Create your models here.
 #1.Neighbourhood class,.Profile class,Busiiness,Post
@@ -9,9 +9,10 @@ from django.contrib.auth.urls import User
 class Neighbourhood(models.Model):
     name = models.CharField(max_length=60)
     location = models.CharField(max_length=70)
+    admin = models.CharField(max_length=30)
     description = models.TextField(max_length=255,help_text="Description of the Neighbourhood.")
-    health_tel = models.IntegerField(max_length=100,null=True,blank=True)
-    police_tel = models.IntegerField(max_length=100,null=True)
+    health_tel = models.IntegerField(null=True,blank=True)
+    police_tel = models.IntegerField(null=True)
     
     
     
