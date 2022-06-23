@@ -89,7 +89,7 @@ def edit_profile(request, username):
             return redirect('profile', user.username)
     else:
         form = UpdateProfileForm(instance=request.user.profile)
-    return render(request, 'prof_edit.html', {'form': form})
+    return render(request, 'prof_redit.html', {'form': form})
 
 
 def hood_members(request, hood_id):
