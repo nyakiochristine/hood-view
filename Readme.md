@@ -6,6 +6,9 @@
 
 This project allows users to post their hood, hospitals and businesses around their neighbourhood
 
+##HomePage
+![Screenshot from 2022-06-23 01-13-39](https://user-images.githubusercontent.com/98151711/175166943-8fc9911b-2970-42fd-b84d-cb3a79a4ef93.png)
+
 ## Live Link  
   
 ## User Story  
